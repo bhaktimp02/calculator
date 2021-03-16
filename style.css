@@ -1,0 +1,17 @@
+/*Calculator header styling*/
+#calculator-header{
+	color: red;
+	font-family: Lobster;
+	
+}
+
+/*Footer Styling*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: gray;
+   color: white;
+   text-align: right;
+}

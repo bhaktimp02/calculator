@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+
+	<!-- Calculator CSS-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--Font-Family Lobster-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	 <!--End Here-->
+
+	<!--Font-Family Lobster-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<!-- Calculator JavaScript-->
+	<script type="text/javascript" src="script.js"></script>
+
+<!--Bootstrap main container -->
+
+	<div class="container">
+		
+		<!--BootStrap Grid: First Row-->
+		<div class="row">
+			<h1 id="calculator-header" >Calculator</h1>
+			<br/>
+			<div class="col-lg-4">
+				<input type="text" id="display">
+			</div>
+		</div> 
+		<br/>
+
+		<!--BootStrap Grid: Second Row-->
+		<div class="row text-center">
+			<div class="col-lg-2">
+				<button id="7" type="button" class="btn btn-secondary" onclick="displayNum('7')"> 7 </button>
+				<button id="8" type="button" class="btn btn-secondary" onclick="displayNum('8')"> 8 </button>
+				<button id="9" type="button" class="btn btn-secondary" onclick="displayNum('9')"> 9 </button>
+				<button id="*" type="button" class="btn btn-secondary" onclick="displayNum('*')"> X </button>
+			</div>
+		</div>
+		<br/>
+
+
+		<!--BootStrap Grid: Third Row-->
+		<div class="row text-center">
+			<div class="col-lg-2">
+				<button id="4" type="button" class="btn btn-secondary" onclick="displayNum('4')"> 4 </button>
+				<button id="5" type="button" class="btn btn-secondary" onclick="displayNum('5')"> 5 </button>
+				<button id="6" type="button" class="btn btn-secondary" onclick="displayNum('6')"> 6 </button>
+				<button id="-" type="button" class="btn btn-secondary" onclick="displayNum('-')"> - </button>
+			</div>
+		</div>
+		<br/>
+
+		<!--BootStrap Grid: Fourth Row-->
+		<div class="row text-center">
+			<div class="col-lg-2">
+				<button id="1" type="button" class="btn btn-secondary" onclick="displayNum('1')"> 1 </button>
+				<button id="2" type="button" class="btn btn-secondary" onclick="displayNum('2')"> 2 </button>
+				<button id="3" type="button" class="btn btn-secondary" onclick="displayNum('3')"> 3 </button>
+				<button id="+" type="button" class="btn btn-secondary" onclick="displayNum('+')"> + </button>
+			</div>
+		</div>
+		<br/>
+
+		<!--BootStrap Grid: Fifth Row-->
+		<div class="row text-center">
+			<div class="col-lg-2">
+				<button id="AC" type="button" class="btn btn-secondary" onclick="clrDisplay('AC')"> AC </button>
+				<button id="0" type="button" class="btn btn-secondary" onclick="displayNum('0')"> 0 </button>
+				<button id="=" type="button" class="btn btn-secondary" onclick="solveEquation('=')"> = </button>
+				<button id="/" type="button" class="btn btn-secondary" onclick="displayNum('/')"> / </button>
+			</div>
+		</div>
+		<br/>
+
+	</div>
+
+	<!--Calculator History -->
+	<h2 id="calculator-header">History</h2>
+	<div id="log" class="container text-left">
+	
+	</div>
+
+
+	<!--Footer-->
+	<div class="footer">
+ 		 <p>Designed by: Bhakti Patel</p>
+	</div>
+
+</body>
+</html>

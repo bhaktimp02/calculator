@@ -1,0 +1,1 @@
+Calculator app will let user do basic calculation. Top bar is for display and buttons will be used to press desire number along with operator. To get result user has to press = sign. Also user will be able to see calculation log below calculator.
